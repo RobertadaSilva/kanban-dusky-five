@@ -8,6 +8,13 @@ describe('Gerenciamento de Tarefas', () => {
     cy.newTask('Nova tarefa', 'Nova coluna')
 })
 
+  it('TC08 - Criar nova tarefa com nome vazio', () => {
+    cy.newColumn('Nova coluna')
+    cy.newTask('', 'Nova coluna')
+
+    })
+})
+
   it('TC09 - Remover tarefa da coluna existente', () => {
     cy.newColumn('Nova coluna')
     cy.newTask('Nova tarefa', 'Nova coluna')
@@ -18,10 +25,3 @@ describe('Gerenciamento de Tarefas', () => {
   })
     cy.contains('Nova tarefa').should('not.exist')
   })
-
-    it('TC08 - Criar nova tarefa com nome vazio', () => {
-    cy.newColumn('Nova coluna')
-    cy.newTask('', 'Nova coluna')
-
-    })
-})

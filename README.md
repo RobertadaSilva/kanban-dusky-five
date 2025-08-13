@@ -27,6 +27,8 @@ Clone o repositório e inicialize o projeto:
 ## Execução CI/CD:
 Somente quando ouver push no diretorio do projeto
 
+## Relatórios no sheets:
+https://docs.google.com/spreadsheets/d/1_2yUDgRat1cMdhZpusZb4VWYzpuHdQsycHcs-gfnw1Q/edit?usp=sharing
 ----------------------------------------------------------------------------------------------
 ### Observação 2:
 Este projeto foi realizado da maneira mais simples, não houve adição de muitos padrões e escrita de teste.
