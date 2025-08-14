@@ -9,7 +9,7 @@ Este projeto contém testes automatizados para uma aplicação Kanban usando [Cy
 Clone o repositório e inicialize o projeto:
 
 - git clone <>
-- npm init -y
+- npm init
 
 ## Instale o Cypress:
 - npm install cypress --save-dev
@@ -21,7 +21,7 @@ Clone o repositório e inicialize o projeto:
     Modo headless (terminal):
      - npx cypress run
 
-    Modo interativo (interface gráfica):
+    Modo interativo:
      - npx cypress open
 
 ## Execução CI/CD:
