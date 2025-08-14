@@ -30,7 +30,7 @@ Somente quando ouver push no diretorio do projeto
 ## Relatórios no sheets:
 https://docs.google.com/spreadsheets/d/1_2yUDgRat1cMdhZpusZb4VWYzpuHdQsycHcs-gfnw1Q/edit?usp=sharing
 ----------------------------------------------------------------------------------------------
-### Observação 2:
+### Observação 1:
 Este projeto foi realizado da maneira mais simples, não houve adição de muitos padrões e escrita de teste.
 
 ### Observação 2:
